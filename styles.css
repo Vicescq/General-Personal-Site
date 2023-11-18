@@ -36,7 +36,14 @@
 }
 
 
+.astro{
+    padding-right: 100px;
+    
+}
 
+.er{
+    width: 500px;
+}
 
 body{
     background-color: rgb(105, 139, 108);
