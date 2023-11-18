@@ -38,11 +38,23 @@
 
 .astro{
     padding-right: 100px;
-    
+    max-width: 100%;
+    height: auto;
 }
 
 .er{
     width: 500px;
+    
+}
+
+.c1_p{
+    max-width: 25%;
+    padding-left: 190px;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 body{
@@ -59,5 +71,6 @@ h1{
     font-size: 50px;
     text-align: center;
 }
+
 
 
