@@ -1,3 +1,56 @@
-h1{
-    color: red;
+:root{
+    font-family: 'Lexend', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
 }
+
+.navbar{
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(21, 176, 96);
+    transition: width 300ms ease;
+}
+
+.navbar:hover{
+    width: 16rem;
+    
+}
+
+.navbar-nav{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    font-size: 60px;
+    fill: rgb(74, 74, 85);
+}
+
+
+
+
+body{
+    background-color: rgb(105, 139, 108);
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+
